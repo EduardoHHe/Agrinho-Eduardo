@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(188, 255, 216);
+}
+header{
+    background-color: rgb(67, 182, 56);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(0, 0, 0);
+
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#foto1{
+    display: block;
+    float: left;    
+    margin-right: -200px; 
+    width: 20%; 
+}
+#foto3{
+    display: block;
+    float: right;    
+    margin-left: -100px; 
+    width: 30%; 
+}
+
+.header {
+    height: 150px; 
+    position: relative; 
+}
+
+.header img {
+    width: auto; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+p{
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+}
+.titulo1{
+    background: rgb(152, 255, 160);
+}
+.titulo2{
+    background: rgb(244, 244, 245);
+    display: flex;
+
+}
+
+.titulo2 {
+    border: 10px solid rgb(22, 1, 1); 
+    display: inline-block; 
+    padding: 5px; 
+    width: 50%;
+  }
+#foto2{
+    width: 50%;
+  }
+#foto3{
+    width: 50%;
+  }
+.pagina2{
+    text-align: center;
+    overflow: auto;
+    margin-top: 40px;
+} 
+h3{
+    color: rgb(12, 1, 1);
+   width: -50%;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(67, 182, 56);
+    padding: 2px 0;
+}
